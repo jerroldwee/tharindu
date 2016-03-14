@@ -1,0 +1,83 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical" >
+ 
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="start" />
+    
+    <Button
+        android:id="@+id/btnConsent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="consent" />
+    
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    
+  
+    <TextView
+        android:id="@+id/txtacc"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:text="acc"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtalti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="alti"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtcal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cal"
+        android:textAppearance="?android:attr/textAppearanceSmall" /> 
+
+    <TextView
+        android:id="@+id/txtskin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skin"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtdis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="distance"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/txtsteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="step"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+
